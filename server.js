@@ -104,7 +104,7 @@ app.post('/v1/chat/completions', async (req, res) => {
     // Make request to NVIDIA NIM API
     const response = await axios.post(`${NIM_API_BASE}/chat/completions`, nimRequest, {
       headers: {
-        'Authorization': `Bearer ${NIM_API_KEY}`,
+        'Authorization': `Bearer ${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}`,
         'Content-Type': 'application/json'
       },
       responseType: stream ? 'stream' : 'json'
